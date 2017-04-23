@@ -1,25 +1,40 @@
 <!DOCTYPE html>
 <html lang="ru">
  <head>
+    <link href="style.css" rel="stylesheet">
     <meta charset="utf-8">
 	<title>Техномарт</title>
  </head>
  <body>
    <header>
-	<div class="container">
-     <div class="logo_header">
-      <img src="#" width="368" height="100" alt="logo">
-    </div>
-    <form action="#" method="get">
-         <input type="text" name="search" value="Поиск:">
-      </form>
-     <div><a href="#">Закладки:0</a></div>
-     <div><a href="#">Корзина:0</a></div>
-     <div><a href="#">Оформить заказ</a></div>
-     <p>Интернет магазин
+	<div class="container outline">
+<div class="header_top outline">
+      <div class="logo_header column_header_top_1 outline">
+       <div class="logo">
+       	 <span>Техномарт</span>
+       </div>
+      </div>
+       <form class="column_header_top_2" action="#" method="get">
+        <input type="text" name="search" value="Поиск:">
+       </form>
+       <div class="bookmark outline"><a href="#">Закладки:0</a></div>
+       <div class="basket  outline"><a href="#">Корзина:0</a></div>
+       <div class= "order  outline"><a href="#">Оформить заказ</a></div>
+ </div>
+
+   <div class="column_1 outline"><p>Интернет магазин
       строительных материалов
-       и инструментов для ремонта</p>
- 	<nav class="main_navigation">
+       и инструментов для ремонта</p></div>
+ 	<div class="column_2 outline">
+ 		<a href="+7(812)555-05-55" class="number">+7(812)555-05-55</a>
+ 		<span class="adress">г. Санкт-Петербург, Б. Конюшенная, д. 19/8</span>
+   </div>
+   <div class="column_3 outline">
+    <div class="login outline"><a href="#">Войти</a></div>
+ 	<div class="sign_up outline"><a href="#">Регистрация</a></div>
+    </div>
+   <div class="column_4 outline">
+    <nav class="main_menu">
  		<ul class="pages">
  		 <li><a href="#">Главная</a></li>
  		 <li><a href="#">Компания</a></li>
@@ -30,129 +45,125 @@
  		 <li><a href="#">Контакты</a></li>
  		</ul>
  	</nav>
- 	<div class="telephone">
- 		<a href="+7(812)555-05-55" class="number">+7(812)555-05-55</a>
- 		<span class="adress">г. Санкт-Петербург, Б. Конюшенная, д. 19/8</span>
-   </div>
-  <div class="login"><a href="#">Войти</a></div>
- 	<div class="sign_up"><a href="#">Регистрация</a></div>
-    </div>
+ 	</div>
 	</header>
-	<main class="container">
+	<main class="container outline">
 		<div class="features">
-          <article class="feature">
+          <article class="feature material  outline">
           	<h3>Материалы</h3>
-          	<img  class="icon" src="#" width="100" height="150" alt="picture_1">
-            <a class="feature_info">На любой вкус</a>
+          	<div><a class="feature_info" href="#">На любой вкус</a></div>
+          	<img  class="icon" src="img/feature1.png" width="44" height="65" alt="picture_1">
           </article>
-          <article class="feature">
+          <article class="feature tool outline">
           	<h3>Инструмент</h3>
-          	<img class="icon" src="#" width="100" height="150" alt="picture_2">
-            <a class="more_info" href="#">На все случаи</a>
+          	<div><a class="more_info" href="#">На все случаи</a></div>
+          	<img class="icon" src="img/feature2.png" width="75" height="61" alt="picture_2">
           </article>
-          <article class="feature">
+          <article class="feature machine  outline">
           	<h3>Техника</h3>
-          	<img class="icon" src="#" width="100" height="150" alt="picture_3">
-            <a class="more_info" href="#">Для стройки</a>
+          	<div><a class="more_info" href="#">Для стройки</a></div>
+          	<img class="icon" src="img/feature3.png" width="78" height="62" alt="picture_3">
           </article>
-          <article class="feature">
+          <article class="feature low_price outline">
           	<h3>Скидки 50%</h3>
-          	<img class="icon" src="#" width="100" height="150" alt="picture_4">
-            <a class="more_info" href="#">На 350 товаров</a>
+          	<div><a class="more_info" href="#">На 350 товаров</a></div>
+          	<img class="icon" src="img/feature4.png" width="59" height="72" alt="picture_4">
           </article>
-          <article class="feature">
+          <article class="feature delivery_feature outline">
           	<h3>Доставка</h3>
-          	<img  class="icon" src="#" width="100" height="150" alt="picture_5">
-            <a class="more_info" href="#">Бесплатно</a>
+          	<div><a class="more_info" href="#">Бесплатно</a></div>
+          	<img  class="icon" src="img/feature5.png" width="78" height="63" alt="picture_5">
           </article>
-           <div class="slider"> 
-             <label for="slider1_1"></label>
-             <div>
+          <div class="slider outline">
           	<h3>Перфораторы</h3>
-          	<img class="picture" src="#" width="100" height="150" alt="picture_6_1">
+          	<img class="picture" src="img/feature6.jpg" width="615" height="266" alt="picture_6_1">
              <a class="more_info" href="#">Открыть каталог</a>
-              <input type="radio" name="slider1" id="slider1_1" checked="checked">
+             <input type="radio" name="slider1" id="slider1_1" checked="checked">
                </div>
-             <input type="radio" name="slider2" id="slider1_2">
              <label for="slider1_2"></label>
-             <div>
-          	<h3>Дрели</h3>
-          	<img class="picture" src="#" width="100" height="150" alt="picture_6_2">
-             <a class="more_info" href="#">Открыть каталог</a>
-               </div>
-          </div>
+             <div class="outline">
+          <div class="clearfix"></div>
 		</div>
-        <div class="popular">
-         <h3>Популярные товары</h3>
+        <div class="popular  outline">
+         <div class="outline"><h1>Популярные товары</h1>
          <a class="more_items" href="#">Все популярные товары</a>
-         <article class="item">
-           <img src="#" width="100" height="150" alt="picture_7">
+         </div>
+         <article class="item outline">
+           <img src="img/tool1.jpg" width="184" height="164" alt="picture_7">
           	<span>Перфоратор BOSCH</span>
             <span>BFG 9000</span>
             <span class="old_price">32500 Р.</span>
-            <span class="price">25500 Р.</span>
+            <div class="price"><span class="price">25500 Р.</span>
           </article>
-          <article class="item">
-            <img src="#" width="100" height="150" alt="picture_8">
+          <article class="item outline">
+            <img src="img/tool2.jpg" width="184" height="164" alt="picture_8">
           	<span>Перфоратор BOSCH</span>
             <span>BFG 3000</span>
             <span class="old_price">22500 Р.</span>
-            <span class="price"> 15500 Р.</span>
+            <div class="price"><span class="price"> 15500 Р.</span>
           </article>
-          <article class="item">
-            <img src="#" width="100" height="150" alt="picture_9">
+          <article class="item outline">
+            <img src="img/tool3.jpg" width="184" height="164" alt="picture_9">
           	<span>Перфоратор BOSCH</span>
             <span>BFG 6000</span>
             <span class="old_price">30500 Р.</span>
-            <span class="price">25000 Р.</span>
+             <div class="price"><span class="price">25000 Р.</span>
           </article>
-          <article class="item">
-            <img src="#" width="100" height="150" alt="picture_10">
-          	<span>Перфоратор BOSCH</span>
+          <article class="item outline">
+            <img src="img/tool4.jpg" width="184" height="164" alt="picture_10">
+          	<span><b>Перфоратор BOSCH</span>
             <span>BFG 2000</span>
-            <span class="price">12500 Р.</span>
+            <div class="price"><span>12500 Р.</span></div>
           </article>
+          <div class="clearfix"></div>
         </div>
-        <div class="popular">
-        <h3>Популярные производители</h3>
+        <div class="popular outline">
+                <div class="outline"><h1>Популярные производители</h1>
          <a class="more_manufactures" href="#">Все популярные производители</a>
-         <div class="manufacture">
-          	<img src="#" width="100" height="150" alt="picture_11">
+               </div>
+         <div class="manufacture outline">
+          	<img src="img/bosch.jpg" width="126" height="37" alt="picture_11">
           </div>
-          <div class="manufacture">
-          	<img src="#" width="100" height="150" alt="picture_12">
+          <div class="manufacture outline ">
+          	<img src="img/makita.jpg" width="123" height="40" alt="picture_12">
           </div>
-          <div class="manufacture">
-          	<img src="#" width="100" height="150" alt="picture_13">
+          <div class="manufacture outline">
+          	<img src="img/DeWALT.jpg" width="146" height="44" alt="picture_13">
           </div>
-          <div class="manufacture">
-          	<img src="#" width="100" height="150" alt="picture_14">
+          <div class="manufacture outline">
+          	<img src="img/Interscol.jpg" width="200" height="88" alt="picture_14">
           </div>
-          <div class="manufacture">
-          	<img src="#" width="100" height="150" alt="picture_15">
+          <div class="manufacture outline">
+          	<img src="img/Hitachi.jpg" width="169" height="31" alt="picture_15">
           </div>
-          <div class="manufacture">
-          	<img src="#" width="100" height="150" alt="picture_16">
+          <div class="manufacture outline">
+          	<img src="img/LG.jpg" width="121" height="73" alt="picture_16">
           </div>
-          <div class="manufacture">
-          	<img src="#" width="100" height="150" alt="picture_17">
+          <div class="manufacture outline">
+          	<img src="img/AEG.jpg" width="151" height="96" alt="picture_17">
           </div>
-          <div class="manufacture">
-          	<img src="#" width="100" height="150" alt="picture_18">
+          <div class="manufacture outline">
+          	<img src="img/Metabo.jpg" width="204" height="69" alt="picture_18">
           </div>
+          <div class="clearfix"></div>
         </div>
-        <div class="service_block">
+        <div class="service_block outline">
         <h2>Cервисы</h2>
         <p>Хороший интернет магазин отличается от плохого не только ценами!<br>
         Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
+         <table>
+          <tr><td>Доставка</td></tr>
+          <tr><td>Гарантия</td></tr>	
+          <tr><td>Кредит</td></tr>
+         </table>
         </div>
         <div class="delivery">
-        <h2>Доставка</h2>
-         <img src="#" width="100" height="150" alt="picture_19">
-         <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно!Ведь мы неплохо заработаем поднимая его на ваш этаж</p>
-         <img src="#" width="100" height="150" alt="picture_20">
+        <h1>Доставка</h1>
+         <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно!</p>
+         <p>Ведь мы неплохо заработаем поднимая его на ваш этаж</p>
+         <img class="delivery_picture" src="img/lorry.png" width="206" height="146" alt="picture_20">
         </div>
-        <div class="about">
+        <div class="about outline">
           <h2>Компания "Техномарт"</h2>
          <p>Настоящий мужской шоппинг начинается здесь!Огромный выбор товаров для ремонта и строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.</p>
          <p>Мы можем доставить ваш товар в самые отдалённые точки России!Техномарт работает со многими транспортными компаниями:</p>
@@ -163,22 +174,26 @@
          </ul>
          <a class="button" href="#">Подробнее о компании</a>
         </div>
-        <div class="contact">
+        <div class="contact outline">
             <h2>Контакты</h2>
         	<p>Вы можете забрать товар сами заехав к нам в офис</p>
-        	<img src="#" width="100" height="100" alt="picture_21">
-        	<a class="button" href="#">Заблудились? Напишите нам!</a>
+        	<img  src="img/map.jpg" width="300" height="158" alt="picture_21">
+        	<a class="button write_us" href="#">Заблудились? Напишите нам!</a>
         </div>
+        <div class="clearfix"></div>
 	</main>
 	<footer>
-		<div class="logo_footer">
-      <img src="#" width="368" height="100" alt="logo">
-       <div class="container">
+       <div class="container outline">
+       <div class="footer_logo outline">
+       	 <span>Техномарт</span>
+       </div>
        <section class="footer_contacts">
-          Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+        <div class="footer_about outline">
+          Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
           <a href="#">Как нас найти?</a>
           Телефон:<a class="number" href="#"> +7 (812) 666-02-66</a>
-          <nav class="footer-navigation">
+          </div>
+          <nav class="footer-navigation outline">
             <a href="#">Компания</a>
           	<a href="#">Новости</a>
           	<a href="#">Каталог</a>
@@ -191,20 +206,23 @@
             <a href="#">Спецпредложения</a>
            </nav>
         </section>
-         <section class="footer_copyright">
+         <section class="footer_copyright outline">
          <p>2010-2016 Компания "Техномарт"<br>
           Все права защищены</p>
           </section>
-        <section class="footer_social">
+        <section class="footer_social outline">
           <a class="social-btn social-btn-vk" href="#" target="_blank">Вконтакте</a>
           <a class="social-btn social-btn-fb" href="#" target="_blank">Фейсбук</a>
           <a class="social-btn social-btn-inst" href="#" target="_blank">Инстаграм</a>
         </section>
+        <section class="feedback outline">
          <p>Обратная связь</p>
         <a class="btn" href="mail@htmlacademy.ru" target="_blank">mail@htmlacademy.ru</a>
-        <p>Разработано</p>
+        <div class="website"><p>Разработано</p>
         <a class="btn" href="http://htmlacademy.ru" target="_blank">htmlacademy.ru</a>
+        </div>
        </section>
+       <div class="clearfix"></div>
      </div>
 	</footer>
  </body>
