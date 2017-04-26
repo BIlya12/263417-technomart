@@ -14,23 +14,24 @@ h2{
 	line-height: 24px; 
 }
 .container {
-  width: 1100px;
-  margin-left: 100px;
-  margin-right: 10px;
-}
-.outlne{
-  border: 2px solid black;
-  padding: 20px;
-  margin-bottom: 20px;
-  
+  width: 1000px;
+  margin-left: 300px;
+  margin-right: 200px;
 }
 
 .header_top{
-	width: 1100px;
-	height: 40px;
+	width: 1200px;
+	height: 35px;
 	background-color: #33445a
 	
 }
+.main_header{
+	display: flex;
+	justify-content: space-around; 
+}
+
+
+
 .column_header_top_1{
 	float: left;
 	height: 20px;
@@ -81,16 +82,26 @@ h2{
 	margin-left: 100px;
 	margin-right: 60px;
 }
-
+.login,
+{
+	clear: left
+    margin-top:-70px;
+	margin-left:150px   
+}
+.sign_up{
+	float: right;
+	margin-top:-100px;
+	margin-left:150px 
+}
 .column_4{
 	clear: both;
 	height: 60px;
 	width: 940px;
 }
 .pages{
-	width: 960px;
+	width: 910px;
 	list-style: none;
-	margin: 0;
+	margin-left: 100px ;
     padding: 10px 15px;
     background: #3d546e;
     border: 1px solid #e5e5e5;
@@ -106,7 +117,7 @@ h2{
 .feature{
 	width: 250px;
 	height: 120px;
-	margin-left: 10px;
+	margin-left: 100px;
 	float: left;
 	color: white
 }
@@ -126,7 +137,8 @@ h2{
 .machine{
 	background-color: #dc91d8;
 	width: 300px;
-	margin-left: 20px;
+	margin-left: 740px;
+	margin-top: -120px
 
 
 }
@@ -135,8 +147,8 @@ h2{
 	clear: both;
 	float: right;
 	width: 300px;
-	margin-bottom: 20px;
-	margin-right: 150px;
+	margin-top: -20px;
+	margin-right: -40px;
 	
 }
 
@@ -144,25 +156,28 @@ h2{
 	background-color: #8ed78f;
 	float: right;
 	width: 300px;
-	margin-right: 150px;
+	margin-right: -40px;
 	margin-bottom: 40px;
-	margin-top: 17px;
+	margin-top: 15px;
 }
 .slider{
-    
-  clear: left;
-  margin-bottom: 10px
-
-	
+   clear: left;
+   float: left;
+  margin-top: -320px;
+  margin-left: 100px
 }
 	
 .item{
     width: 180px;
 	height: 180px;
-	margin-left: 60px;
+	margin-left: 20px;
 	float: left;
 	margin-bottom: 20px;
 	font-weight: bold;
+	margin-right:20px;
+}
+.popular{
+	margin-left: 100px; 
 }
 .price{
 	color:white;
@@ -173,64 +188,143 @@ h2{
 }
 .manufacture{
 	float: left;
-	width: 15pc;
-	height: 100px;
-	border:1px solid black;
+	width: 10pc;
+	height: 130px;
+	margin-left: 25px;
 	padding: 15px;
 }
+.service_block{
+	margin-left: 115px;
+}
 .delivery{
-clear: right;
+ margin-left:100px;
+ margin-bottom: 150px; 
 
 }
-
-td{
+table{
 	float: left;
-	border: 2px solid #FFFFFF;
+	margin-top: 30px;
+	margin-right: 40px 
+}
 
+.delivery_info{
+	margin-left: 110px 
 }
 .delivery_picture{
-	float: right;
-	margin-bottom:150px : 
 
-
+float: right;
+margin-top:-130px;
 }
 .about{
 	float: left;
 	width: 350px;
+	margin-left: 110px;
 }
 .contact{
 	float: right;
-	margin-left: 20px;
+	margin-left: 10px 
 }
 .write_us{
-	clear: both
+	clear: right;
+
 }
+
 .footer_about{
 	float: left;
 }
-.footer_copyright,
-.footer_social,
-.feedback{
-	float: left;
-	margin-left: 100px;
-	margin-top: 50px
-}
+
 .footer_logo{
-	background-color: red;
+	background-color: #ff5357;
 	color: white;
-	height: 50px;
+	min-height: 30px;
 	width: 100px;
-	}
-.website{
-margin-left: 200px 
 }
+.footer-navigation{
+	float: right
+}
+
+.footer_copyright{
+	float: left;
+	clear: right;
+	 margin-bottom: 5px; 
+}
+.footer_social{
+	margin-left:50px; 
+}
+.feedback{
+ float: right;
+ margin-bottom: -50px; 
+}
+
+.website{
+	float: right;
+margin-left: 20px 
+}
+
 .clearfix{
 	clear: both;
 }
 .button{
 	background-color: #ff5357;
+	clear: both;
+}
+//inner.html
+
+.filter{
+	float: left;
+	margin-left:150px; 
+}
+.sort{
+	float: left;
+	clear: left;
+	margin-left:10px; 
+}
+.price_search{
+	float: left;
+	width: 60px;
+
+}
+.trackbar{
+	margin-left:70px; 	
 }
 
+.type{
+width: 100px;
+height: 200px;
+clear: left;
+margin-left:70px; 	
+}
+.manufactures,
+.energy_source{
+	float: left;
+	
+}
+.item_1,
+.item_2
+.item_3{
+ {
+    width: 180px;
+	height: 180px;
+	margin-left: 20px;
+	float: left;
+	margin-bottom: 20px;
+	font-weight: bold;
+	margin-right:20px;
+}
+
+.catalog{
+	float: right;
+	margin-left:430px;
+	margin-right:350px;  
+}
+.search{
+	
+	
+	margin-left: 50px 
+}
+.info_item{
+	margin-left:390px; 
+}
 
 
 
