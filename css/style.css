@@ -14,24 +14,17 @@ h2{
 	line-height: 24px; 
 }
 .container {
-  width: 1000px;
-  margin-left: 300px;
-  margin-right: 200px;
+  width: 1100px;
+  margin-left: 100px;
+  margin-right: 10px;
 }
 
 .header_top{
-	width: 1200px;
-	height: 35px;
+	width: 1100px;
+	height: 40px;
 	background-color: #33445a
 	
 }
-.main_header{
-	display: flex;
-	justify-content: space-around; 
-}
-
-
-
 .column_header_top_1{
 	float: left;
 	height: 20px;
@@ -82,26 +75,16 @@ h2{
 	margin-left: 100px;
 	margin-right: 60px;
 }
-.login,
-{
-	clear: left
-    margin-top:-70px;
-	margin-left:150px   
-}
-.sign_up{
-	float: right;
-	margin-top:-100px;
-	margin-left:150px 
-}
+
 .column_4{
 	clear: both;
 	height: 60px;
 	width: 940px;
 }
 .pages{
-	width: 910px;
+	width: 960px;
 	list-style: none;
-	margin-left: 100px ;
+	margin: 0;
     padding: 10px 15px;
     background: #3d546e;
     border: 1px solid #e5e5e5;
@@ -117,7 +100,7 @@ h2{
 .feature{
 	width: 250px;
 	height: 120px;
-	margin-left: 100px;
+	margin-left: 10px;
 	float: left;
 	color: white
 }
@@ -137,8 +120,7 @@ h2{
 .machine{
 	background-color: #dc91d8;
 	width: 300px;
-	margin-left: 740px;
-	margin-top: -120px
+	margin-left: 20px;
 
 
 }
@@ -147,8 +129,8 @@ h2{
 	clear: both;
 	float: right;
 	width: 300px;
-	margin-top: -20px;
-	margin-right: -40px;
+	margin-bottom: 20px;
+	margin-right: 150px;
 	
 }
 
@@ -156,28 +138,23 @@ h2{
 	background-color: #8ed78f;
 	float: right;
 	width: 300px;
-	margin-right: -40px;
+	margin-right: 150px;
 	margin-bottom: 40px;
-	margin-top: 15px;
+	margin-top: 17px;
 }
 .slider{
-   clear: left;
-   float: left;
-  margin-top: -320px;
-  margin-left: 100px
+    
+  clear: left;
+  margin-bottom: 10px
 }
 	
 .item{
     width: 180px;
 	height: 180px;
-	margin-left: 20px;
+	margin-left: 60px;
 	float: left;
 	margin-bottom: 20px;
 	font-weight: bold;
-	margin-right:20px;
-}
-.popular{
-	margin-left: 100px; 
 }
 .price{
 	color:white;
@@ -188,17 +165,13 @@ h2{
 }
 .manufacture{
 	float: left;
-	width: 10pc;
-	height: 130px;
-	margin-left: 25px;
+	width: 15pc;
+	height: 100px;
+	border:1px solid black;
 	padding: 15px;
 }
-.service_block{
-	margin-left: 115px;
-}
 .delivery{
- margin-left:100px;
- margin-bottom: 150px; 
+
 
 }
 table{
@@ -207,127 +180,45 @@ table{
 	margin-right: 40px 
 }
 
-.delivery_info{
-	margin-left: 110px 
 }
 .delivery_picture{
 
 float: right;
-margin-top:-130px;
+
 }
 .about{
 	float: left;
 	width: 350px;
-	margin-left: 110px;
 }
 .contact{
 	float: right;
-	margin-left: 10px 
+	margin-left: 20px;
 }
 .write_us{
-	clear: right;
-
+	clear: both
 }
-
 .footer_about{
 	float: left;
 }
-
+.footer_copyright,
+.footer_social,
+.feedback{
+	float: left;
+	margin-left: 100px;
+	margin-top: 50px
+}
 .footer_logo{
 	background-color: #ff5357;
 	color: white;
 	min-height: 30px;
 	width: 100px;
-}
-.footer-navigation{
-	float: right
-}
-
-.footer_copyright{
-	float: left;
-	clear: right;
-	 margin-bottom: 5px; 
-}
-.footer_social{
-	margin-left:50px; 
-}
-.feedback{
- float: right;
- margin-bottom: -50px; 
-}
-
+	}
 .website{
-	float: right;
-margin-left: 20px 
+margin-left: 200px 
 }
-
 .clearfix{
 	clear: both;
 }
 .button{
 	background-color: #ff5357;
-	clear: both;
 }
-//inner.html
-
-.filter{
-	float: left;
-	margin-left:150px; 
-}
-.sort{
-	float: left;
-	clear: left;
-	margin-left:10px; 
-}
-.price_search{
-	float: left;
-	width: 60px;
-
-}
-.trackbar{
-	margin-left:70px; 	
-}
-
-.type{
-width: 100px;
-height: 200px;
-clear: left;
-margin-left:70px; 	
-}
-.manufactures,
-.energy_source{
-	float: left;
-	
-}
-.item_1,
-.item_2
-.item_3{
- {
-    width: 180px;
-	height: 180px;
-	margin-left: 20px;
-	float: left;
-	margin-bottom: 20px;
-	font-weight: bold;
-	margin-right:20px;
-}
-
-.catalog{
-	float: right;
-	margin-left:430px;
-	margin-right:350px;  
-}
-.search{
-	
-	
-	margin-left: 50px 
-}
-.info_item{
-	margin-left:390px; 
-}
-
-
-
-
-
-
