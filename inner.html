@@ -8,20 +8,22 @@
  <body>
    <header>
 	<div class="container outline">
-<div class="header_top">
-      <div class="logo_header column_header_top_1 outline">
+<div class="header_top outline">
+      <div class="logo_header header_top_column_1">
        <div class="logo">
        	 <span>Техномарт</span>
        </div>
       </div>
-       <form class="column_header_top_2" action="#" method="get">
+       <form class="header_top_column_2" action="#" method="get">
         <input type="text" name="search" value="Поиск:">
+
        </form>
-       <div class="bookmark"><a href="#">Закладки:0</a></div>
-       <div class="basket"><a href="#">Корзина:0</a></div>
+       <div class="bookmark "><a href="#">Закладки:0</a></div>
+       <div class="basket "><a href="#">Корзина:0</a></div>
        <div class= "order"><a href="#">Оформить заказ</a></div>
+       <div class="clearfix"></div>
  </div>
-  <div class="main_header">
+
    <div class="column_1 "><p>Интернет магазин
       строительных материалов
        и инструментов для ремонта</p></div>
@@ -29,12 +31,11 @@
  		<a href="+7(812)555-05-55" class="number">+7(812)555-05-55</a>
  		<span class="adress">г. Санкт-Петербург, Б. Конюшенная, д. 19/8</span>
    </div>
- 	 <div class="user_info">
- 	  <span>Равшан Джамшутович</span>
- 	  <a class="login" href="#">Мои заказы</a>
- 	  <a class="sign_up" href="#">Личный кабинет</a>
- 	  </div>
- 	    <div class="column_4">
+   <div class="column_3">
+    <div class="login "><a href="#">Войти</a></div>
+ 	  <div class="sign_up "><a href="#">Регистрация</a></div>
+    </div>
+   <div class="column_4 ">
     <nav class="main_menu">
  		<ul class="pages">
  		 <li><a href="#">Главная</a></li>
@@ -47,7 +48,6 @@
  		</ul>
  	</nav>
  	</div>
-    </div>
 	</header>
     
     
@@ -61,61 +61,67 @@
      <li><a href="#">Инструмент</a></li>
      <li><a  href="#">Перфораторы</a></li>
    </ul>
-    <div class="catalog">
-     <div class="info_item">
+   <div class="item_type">
         <h1>Перфораторы</h1>
-     </div>	
-     <article class="item_1">
-          	<span>Перфоратор Bosch</span>
+     </div>
+    <div class="catalog">
+     <div class="catalog_column1">	
+     <article class="catalog_item">
           	<img src="img/tool2.jpg" width="127" height="112" alt="picture_1">
-          	<span class="old_price">22500 Р.</span>
-          	<span class="price">15500 Р.</span>
-     </article>
-      <article class="item_2">
           	<span>Перфоратор Bosch</span>
+          	<div class="old_price"><span>22500 Р.</span></div>
+          	<div class="catalog_price price"><span>15500 Р.</span></div>
+     </article>
+      <article class= "catalog_item">
           	<img src="img/tool3.jpg" width="144" height="128" alt="picture_2">
-          	<span class="old_price">30500 Р.</span>
-          	<span class="price">25500 Р.</span>
-     </article>
-      <article class="item_3">
           	<span>Перфоратор Bosch</span>
+          	<div class="old_price"><span>30500 Р.</span></div>
+          	<div class="catalog_price price"><span>25500 Р.</span></div>
+     </article>
+      <article class="catalog_item">
           	<img src="img/tool4.jpg" width="127" height="112" alt="picture_3">
-          	<span class="price">12500 Р.</span>
-     </article>
-      <article class="item_1">
           	<span>Перфоратор Bosch</span>
+          	 <div class="catalog_price price"><span>12500 Р.</span></div>
+     </article>
+     </div>
+     <div class="catalog_column2">
+      <article class="catalog_item">
           	<img src="img/tool2.jpg" width="127" height="112" alt="picture_4">
-          	<span class="old_price">22500 Р.</span>
-          	<span class="price">15500 Р.</span>
-     </article>
-      <article class="item_2">
           	<span>Перфоратор Bosch</span>
+          	<div class="old_price"><span>22500 Р.</span></div>
+          	<div class="catalog_price price"><span>15500 Р.</span></div>
+     </article>
+      <article class="catalog_item">
           	<img src="img/tool3.jpg" width="144" height="128" alt="picture_5">
-          	<span class="old_price">30500 Р.</span>
-          	<span class="price">25500 Р.</span>
-     </article>
-      <article class="item_3">
           	<span>Перфоратор Bosch</span>
+          <div class="old_price"><span>30500 Р.</span></div>
+          <div class="catalog_price price"><span>25500 Р.</span></div>
+     </article>
+      <article class="catalog_item">
           	<img src="img/tool4.jpg" width="127" height="112" alt="picture_6">
-            <span class="price">12500 Р.</span>
-     </article>
-      <article class="item_1">
           	<span>Перфоратор Bosch</span>
+             <div class="catalog_price price"><span>12500 Р.</span></div>
+     </article>
+     </div>
+     <div class="catalog_column3">
+      <article class="catalog_item">
           	<img src="img/tool2.jpg" width="127" height="112" alt="picture_7">
-          	<span class="old_price"><del>22500 Р.</span>
-          	<span class="price">15500 Р.</span>
-     </article>
-      <article class="item_2">
           	<span>Перфоратор Bosch</span>
+          	<div class="old_price"><span>22500 Р.</span></div>
+          	<div class="catalog_price price"><span>15500 Р.</span></div>
+     </article>
+      <article class="catalog_item">
           	<img src="img/tool3.jpg" width="144" height="128" alt="picture_8">
-          	<span class="old_price">30500 Р.</span>
-          	<span class="price">25500 Р.</span>
-     </article>
-      <article class="item_3">
           	<span>Перфоратор Bosch</span>
-          	<img src="img/tool4.jpg" width="127" height="112" alt="picture_9">
-            <span>12500 Р.</span>
+            <div class="old_price"><span>30500 Р.</span></div>
+          	<div class="catalog_price price"><span>25500 Р.</span></div>
      </article>
+      <article class="catalog_item">
+          	<img src="img/tool4.jpg" width="127" height="112" alt="picture_9">
+          	<span>Перфоратор Bosch</span>
+            <div class="catalog_price price"><span>12500 Р.</span></div>
+     </article>
+     </div>
     </div>
     <div class="search">
     <div class="filter">
@@ -167,8 +173,9 @@
 
 
 
-   <footer>
+<footer>
        <div class="container">
+       <div class="footer-top">
        <div class="footer_logo">
        	 <span>Техномарт</span>
        </div>
@@ -190,7 +197,9 @@
             <a href="#">Спецпредложения</a>
            </nav>
         </section>
-         <section class="footer_copyright outline">
+        </div>
+         <div class="footer-bottom">
+         <section class="footer_copyright">
          <p>2010-2016 Компания "Техномарт"<br>
           Все права защищены</p>
           </section>
@@ -200,12 +209,15 @@
           <a class="social-btn social-btn-inst" href="#" target="_blank">Инстаграм</a>
         </section>
         <section class="feedback">
+        <div class="e-mail">
          <p>Обратная связь</p>
         <a class="btn" href="mail@htmlacademy.ru" target="_blank">mail@htmlacademy.ru</a>
+        </div>
         <div class="website"><p>Разработано</p>
         <a class="btn" href="http://htmlacademy.ru" target="_blank">htmlacademy.ru</a>
         </div>
        </section>
+       </div>
        <div class="clearfix"></div>
      </div>
 	</footer>
