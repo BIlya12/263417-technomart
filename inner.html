@@ -1,54 +1,55 @@
-<!DOCTYPE html>
-<html lang="ru">
- <head>
-    <link href="style.css" rel="stylesheet">
-    <meta charset="utf-8">
-	<title>Техномарт</title>
- </head>
- <body>
-   <header>
-	<div class="container outline">
-<div class="header_top outline">
-      <div class="logo_header header_top_column_1">
-       <div class="logo">
-       	 <span>Техномарт</span>
-       </div>
+  <!DOCTYPE html>
+  <html lang="ru">
+   <head>
+      <link href="style.css" rel="stylesheet">
+      <meta charset="utf-8">
+    <title>Техномарт</title>
+   </head>
+   <body>
+
+  <header class="main-header">
+    <div class="container clearfix"> 
+  <div class="header_top">
+        <div class="logo_header">
+           <span>Техномарт</span>
+         </div>
+         <form action="#" method="get">
+           <div class="search_engine"><input  type="text" name="search" value="Поиск:"></div>
+        </form>
+   <div class="user_block">
+         <div class="bookmark "><a href="#">Закладки:0</a></div>
+         <div class="basket "><a href="#">Корзина:0</a></div>
+         <div class= "order"><a href="#">Оформить заказ</a></div>
+         </div>
+         <div class="clearfix"></div>
+        </div>
+   <div class="clearfix"></div>
+     <div class="column_1"><p>Интернет магазин
+        строительных материалов
+         и инструментов для ремонта</p></div>
+    <div class="header_adress">
+      <a href="+7(812)555-05-55" class="number">+7(812)555-05-55</a>
+      <span class="adress">г. Санкт-Петербург, Б. Конюшенная, д. 19/8</span>
+     </div>
+     <div class="column_3">
+      <div class="login "><a href="#">Войти</a></div>
+      <div class="sign_up "><a href="#">Регистрация</a></div>
       </div>
-       <form class="header_top_column_2" action="#" method="get">
-        <input type="text" name="search" value="Поиск:">
-
-       </form>
-       <div class="bookmark "><a href="#">Закладки:0</a></div>
-       <div class="basket "><a href="#">Корзина:0</a></div>
-       <div class= "order"><a href="#">Оформить заказ</a></div>
-       <div class="clearfix"></div>
- </div>
-
-   <div class="column_1 "><p>Интернет магазин
-      строительных материалов
-       и инструментов для ремонта</p></div>
- 	<div class="column_2 ">
- 		<a href="+7(812)555-05-55" class="number">+7(812)555-05-55</a>
- 		<span class="adress">г. Санкт-Петербург, Б. Конюшенная, д. 19/8</span>
-   </div>
-   <div class="column_3">
-    <div class="login "><a href="#">Войти</a></div>
- 	  <div class="sign_up "><a href="#">Регистрация</a></div>
+     <div class="column_4 ">
+      <nav class="main_menu">
+      <ul class="pages">
+       <li><a href="#">Главная</a></li>
+       <li><a href="#">Компания</a></li>
+       <li><a href="#">Каталог</a></li>
+       <li><a href="#">Новости</a></li>
+       <li><a href="#">Спецпредложения</a></li>
+       <li><a href="#">Доставка</a></li>
+       <li><a href="#">Контакты</a></li>
+      </ul>
+    </nav>
     </div>
-   <div class="column_4 ">
-    <nav class="main_menu">
- 		<ul class="pages">
- 		 <li><a href="#">Главная</a></li>
- 		 <li><a href="#">Компания</a></li>
- 		 <li><a href="#">Каталог</a></li>
- 		 <li><a href="#">Новости</a></li>
- 		 <li><a href="#">Спецпредложения</a></li>
- 		 <li><a href="#">Доставка</a></li>
- 		 <li><a href="#">Контакты</a></li>
- 		</ul>
- 	</nav>
- 	</div>
-	</header>
+    </div>
+    </header>
     
     
 
@@ -56,6 +57,7 @@
 
 
     <main>
+    <div class="container">
     <ul class="breadcrumb">
      <li><a  href="#">Каталог</a></li>
      <li><a href="#">Инструмент</a></li>
@@ -64,6 +66,39 @@
    <div class="item_type">
         <h1>Перфораторы</h1>
      </div>
+     <div class="search">
+    <div class="filter">
+     <span>Фильтр</span>
+    </div>
+    <div class="sort">
+     <span>Сортировка:</span>
+     <a href="#">По типу</a>
+     <a href="#">По функционалу</a>
+    </div>
+    <div class="trackbar">
+     <h3>Цена:</h3>
+      <div class="trackbar_price">
+      </div>
+     <input class="price_search" type="text" value="0" name="price_value">
+     <input class="price_search" type="text" value="30000" name="price_value">
+     </div>
+    <form >
+     <fieldset class="type">
+      <legend>Производители:</legend>
+         <div class="manufactures"><label><input class="manufactures" type="checkbox" value="manufacture_2" name="manufacture">Bosch</label></div>
+         <div class="manufactures"><label><input class="manufactures" type="checkbox" value="manufacture_3" name="manufacture" checked>Интерскол</label></div>
+         <div class="manufactures"><label><input class="manufactures" type="checkbox" value="manufacture_4" name="manufacture">Makita</label></div>
+         <div class="manufactures"><label><input lass="manufactures" type="checkbox" value="manufacture_5" name="manufacture" >Dewalt</label></div>
+         <div class="manufactures"><label><input lass="manufactures" type="checkbox" value="manufacture_6" name="manufacture" checked>Hitachi</label></div>
+     </fieldset>
+     <fieldset class="type">
+     <legend>Питание:</legend>
+        <div class="energy_source"><label><input  type="radio"  value="item_group_1" name="item_group">Аккумуляторные</label></div>
+        <div class="energy_source"><label><input  type="radio"  value="item_group_2" name="item_group" checked>Сетевые</label></div>
+      <button class="btn" type="submit">Показать</button>
+    </fieldset>
+     </form>
+    </div>
     <div class="catalog">
      <div class="catalog_column1">	
      <article class="catalog_item">
@@ -73,7 +108,7 @@
           	<div class="catalog_price price"><span>15500 Р.</span></div>
      </article>
       <article class= "catalog_item">
-          	<img src="img/tool3.jpg" width="144" height="128" alt="picture_2">
+          	<img src="img/tool3.jpg" width="144" height="112" alt="picture_2">
           	<span>Перфоратор Bosch</span>
           	<div class="old_price"><span>30500 Р.</span></div>
           	<div class="catalog_price price"><span>25500 Р.</span></div>
@@ -119,107 +154,75 @@
       <article class="catalog_item">
           	<img src="img/tool4.jpg" width="127" height="112" alt="picture_9">
           	<span>Перфоратор Bosch</span>
-            <div class="catalog_price price"><span>12500 Р.</span></div>
+            <div class="price"><span>12500 Р.</span></div>
      </article>
      </div>
     </div>
-    <div class="search">
-    <div class="filter">
-     <span>Фильтр</span>
-    </div>
-    <div class="sort">
-     <span>Сортировка:</span>
-     <a href="#">По типу</a>
-     <a href="#">По функционалу</a>
-    </div>
-    <div class="trackbar">
-     <h3>Цена:</h3>
-      <div class="trackbar_price">
-      </div>
-     <input class="price_search" type="text" value="0" name="price_value">
-     <input class="price_search" type="text" value="30000" name="price_value">
-     </div>
-    <form >
-     <fieldset class="type">
-      <legend>Производители:</legend>
-         <div class="manufactures"><label><input class="manufactures" type="checkbox" value="manufacture_2" name="manufacture">Bosch</label></div>
-         <div class="manufactures"><label><input class="manufactures" type="checkbox" value="manufacture_3" name="manufacture" checked>Интерскол</label></div>
-         <div class="manufactures"><label><input class="manufactures" type="checkbox" value="manufacture_4" name="manufacture">Makita</label></div>
-         <div class="manufactures"><label><input lass="manufactures" type="checkbox" value="manufacture_5" name="manufacture" >Dewalt</label></div>
-         <div class="manufactures"><label><input lass="manufactures" type="checkbox" value="manufacture_6" name="manufacture" checked>Hitachi</label></div>
-     </fieldset>
-     <fieldset class="type">
-     <legend>Питание:</legend>
-        <div class="energy_source"><label><input  type="radio"  value="item_group_1" name="item_group">Аккумуляторные</label></div>
-        <div class="energy_source"><label><input  type="radio"  value="item_group_2" name="item_group" checked>Сетевые</label></div>
-      <button class="btn" type="submit">Показать</button>
-    </fieldset>
-     </form>
-    </div>
+    
      
    <div class="pagination">
     <a class="page_number" href="#">1</a>
     <a class="page_number" href="#">2</a>
     <a class="page_number" href="#">3</a>
    </div>
-   </div>
      <div class="info_item">
         <h1>Пара слов о перфораторах</h1>
      	<p>Перфоратор-универсальный строительный инструмент. Предназначен для сверления и долбения отверстий в кирпиче, бетоне и камне.<br>
      	Существуют электромеханические и пневматические перфораторы.Современные модели могут выполнять функции дрели, шуруповерта и отбойного молотка.<br>
      	В ассортиментном ряду есть выбор "трехрежимников": в одном устройстве будут совмещены отбойный молоток и ударная дрель.</p>
-     </div>	
+     </div>
+     </div>
     </main>
 
 
 
 <footer>
-       <div class="container">
-       <div class="footer-top">
-       <div class="footer_logo">
-       	 <span>Техномарт</span>
-       </div>
-       <section class="footer_contacts">
-        <div class="footer_about">
-          Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
-          Телефон:<a class="number" href="#"> +7 (812) 666-02-66</a>
-          </div>
-          <nav class="footer-navigation">
-            <a href="#">Компания</a>
-          	<a href="#">Новости</a>
-          	<a href="#">Каталог</a>
-          	<a href="#">Доставка</a>
-          	<a href="#">Контакты</a><br>
+         <div class="container">
+         <div class="footer-top">
+         <div class="footer_logo">
+         	 <span>Техномарт</span>
+         </div>
+         <section class="footer_contacts">
+          <div class="footer_about">
+            Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+            Телефон:<a class="number" href="#"> +7 (812) 666-02-66</a>
+            </div>
+            <nav class="footer-navigation">
+              <a href="#">Компания</a>
+            	<a href="#">Новости</a>
+            	<a href="#">Каталог</a>
+            	<a href="#">Доставка</a>
+            	<a href="#">Контакты</a><br>
 
-          	<a href="#">Материалы</a>
-          	<a href="#">Техника</a>
-          	<a href="#">Инструмент</a>
-            <a href="#">Спецпредложения</a>
-           </nav>
-        </section>
-        </div>
-         <div class="footer-bottom">
-         <section class="footer_copyright">
-         <p>2010-2016 Компания "Техномарт"<br>
-          Все права защищены</p>
+            	<a href="#">Материалы</a>
+            	<a href="#">Техника</a>
+            	<a href="#">Инструмент</a>
+              <a href="#">Спецпредложения</a>
+             </nav>
           </section>
-        <section class="footer_social">
-          <a class="social-btn social-btn-vk" href="#" target="_blank">Вконтакте</a>
-          <a class="social-btn social-btn-fb" href="#" target="_blank">Фейсбук</a>
-          <a class="social-btn social-btn-inst" href="#" target="_blank">Инстаграм</a>
-        </section>
-        <section class="feedback">
-        <div class="e-mail">
-         <p>Обратная связь</p>
-        <a class="btn" href="mail@htmlacademy.ru" target="_blank">mail@htmlacademy.ru</a>
-        </div>
-        <div class="website"><p>Разработано</p>
-        <a class="btn" href="http://htmlacademy.ru" target="_blank">htmlacademy.ru</a>
-        </div>
-       </section>
+          </div>
+           <div class="footer-bottom">
+           <section class="footer_copyright">
+           <p>2010-2016 Компания "Техномарт"<br>
+            Все права защищены</p>
+            </section>
+          <section class="footer_social">
+            <a class="social-btn social-btn-vk" href="#" target="_blank">Вконтакте</a>
+            <a class="social-btn social-btn-fb" href="#" target="_blank">Фейсбук</a>
+            <a class="social-btn social-btn-inst" href="#" target="_blank">Инстаграм</a>
+          </section>
+          <section class="feedback">
+          <div class="e-mail">
+           <p>Обратная связь</p>
+          <a class="btn" href="mail@htmlacademy.ru" target="_blank">mail@htmlacademy.ru</a>
+          </div>
+          <div class="website"><p>Разработано</p>
+          <a class="btn" href="http://htmlacademy.ru" target="_blank">htmlacademy.ru</a>
+          </div>
+         </section>
+         </div>
+         <div class="clearfix"></div>
        </div>
-       <div class="clearfix"></div>
-     </div>
-	</footer>
+  	</footer>
  </body>
 </html>
