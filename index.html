@@ -57,12 +57,13 @@
             <article class="feature material">
             	<h3>Материалы</h3>
             	<div><a class="feature_info" href="#">На любой вкус</a></div>
-            	<img  class="icon" src="img/feature1.png" width="44" height="65" alt="picture_1">
+            	<div class="icon_1"><img src="img/feature1.png" width="44" height="65" alt="picture_1"></div>
+              <div class="new_feature"><img src="img/new_flag.png" width="60" height="59" alt="picture_1"></div>
             </article>
             <article class="feature tool">
             	<h3>Инструмент</h3>
             	<div><a class="more_info" href="#">На все случаи</a></div>
-            	<img class="icon" src="img/feature2.png" width="75" height="61" alt="picture_2">
+            	<div class="icon_2"><img src="img/feature2.png" width="75" height="61" alt="picture_2"></div>
             </article>
             <div class="slider">
 
@@ -75,17 +76,17 @@
             <article class="feature machine">
             	<h3>Техника</h3>
             	<div><a class="more_info" href="#">Для стройки</a></div>
-            	<img class="icon" src="img/feature3.png" width="78" height="62" alt="picture_3">
+            	<div class="icon_3"><img  src="img/feature3.png" width="78" height="62" alt="picture_3"></div>
             </article>
             <article class="feature low_price">
             	<h3>Скидки 50%</h3>
             	<div><a class="more_info" href="#">На 350 товаров</a></div>
-            	<img class="icon" src="img/feature4.png" width="59" height="72" alt="picture_4">
+            	<div class="icon_4"><img  src="img/feature4.png" width="59" height="72" alt="picture_4"></div>
             </article>
             <article class="feature delivery_feature">
             	<h3>Доставка</h3>
             	<div><a class="more_info" href="#">Бесплатно</a></div>
-            	<img  class="icon" src="img/feature5.png" width="78" height="63" alt="picture_5">
+            	<div class="icon_5"><img src="img/feature5.png" width="78" height="63" alt="picture_5"></div>
             </article>
             </div>
                <label for="slider1_2"></label>
@@ -121,6 +122,7 @@
             	<span>Перфоратор BOSCH</span>
               <span>BFG 2000</span>
               <div class="price"><span>12500 Р.</span></div>
+               <div class="new_item"><img  class="icon" src="img/new_flag.png" width="60" height="59" alt="picture_1"></div>
             </article>
             <div class="clearfix"></div>
           </div>
@@ -241,21 +243,23 @@
          <div class="clearfix"></div>
        </div>
   	</footer>
-     <div class="modal-content .">
+     <div class="modal-content">
       <button class="modal-content-close" type="button" title="Закрыть">Закрыть</button>
-      <h2 class="modal-content-title">Личный кабинет</h2>
-      <p>Введите свой логин и пароль.</p>
       <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
-        <input class="icon-user" type="text" name="login" placeholder="Логин">
-        <input class="icon-password" type="password"  name="password" placeholder="Пароль">
-        <label class="login-checkbox">
-          <input type="checkbox" name="remember">
-          <span class="checkbox-indicator"></span>
-          Запомните меня
-        </label>
-        <textarea></textarea>
-        <a class="restore" href="#">Я забыл пароль!</a>
-        <button class="btn" type="submit">Войти</button>
+        <div class="popup-column-1">
+        <label>
+        <h3>Ваше имя:</h3>
+        <input class="text-form name-form" type="text" name="name" placeholder="Представьтесь пожалуйста"></label>
+        </div>
+        <div class="popup-column-2">
+        <label><h3>Ваш e-mail:</h3>
+        <input class="text-form e-mail-form" type="text"  name="e-mail" placeholder="Для отправки ответа"></label>
+        </div>
+        <div class="popup-column-3">
+        <h3>Текст письма:</h3>
+        <textarea placeholder="В свободной форме"></textarea>
+        </div>
+        <button class="button popup-button" type="submit">Отправить</button>
       </form>
     </div>
     <div class="map_popup">
