@@ -1,8 +1,7 @@
-
 html
 {
     box-sizing: border-box;
-    margin: 0,auto;
+    margin: 0 auto;
 }
 .clearfix::after
 {
@@ -460,13 +459,11 @@ footer
 }
 .button
 {
-    clear: left;
+    font-size: 14px;
 
-    margin-top: 14px;
-    margin-right: 59px;
-    margin-bottom: 12px;
     padding-left: 63px;
 
+    color: #fff;
     background-color: #ff5357;
 }
 a
@@ -533,7 +530,6 @@ a
 
     border: 1px solid #000;
 }
-c
 .item_info
 {
     float: left;
@@ -578,7 +574,6 @@ c
     height: 465px;
 
     background-image: url('img/map-popup.png');
-    box-shadow: 0 10px 10px rgba(0, 0, 0, .5);
 }
 .modal-content-close::before,
 .modal-content-close::after
@@ -594,6 +589,43 @@ c
 
     border-radius: 1px;
     background-color: #000;
+}
+.modal-content textarea
+{
+    width: 460px;
+    height: 114px;
+    padding-right: 80px;
+    padding-left: 80px;
+}
+.text-form
+{
+    width: 220px;
+    height: 38px;
+}
+.popup-column-1
+{
+    float: left;
+
+    padding-right: 39px;
+}
+.popup-column-2
+{
+    float: right;
+}
+.popup-column-3
+{
+    clear: both;
+
+    margin-top: 19px;
+}
+.popup-button
+{
+    width: 460px;
+    height: 38px;
+    margin-right: 80px;
+    margin-left: 80px;
+    padding-right: 199px;
+    padding-left: 198px;
 }
 .modal-content-close
 {
@@ -620,6 +652,48 @@ c
 .modal-content-close::after
 {
     transform: rotate(-45deg);
+}
+.new_feature
+{
+    position: absolute;
+    top: 377px;
+    left: 562px;
+}
+.new_item
+{
+    position: absolute;
+    top: 917px;
+    left: 1058px;
+}
+.icon_1
+{
+    position: absolute;
+    top: 400px;
+    left: 530px;
+}
+.icon_2
+{
+    position: absolute;
+    top: 400px;
+    left: 850px;
+}
+.icon_3
+{
+    position: absolute;
+    top: 400px;
+    left: 1180px;
+}
+.icon_4
+{
+    position: absolute;
+    top: 540px;
+    left: 1180px;
+}
+.icon_5
+{
+    position: absolute;
+    top: 690px;
+    left: 1180px;
 }
 
 
