@@ -1,25 +1,27 @@
 html
 {
     box-sizing: border-box;
-    margin: 0 auto;
 }
 .clearfix::after
 {
-  display:table;
-  clear:both;
+    display: table;
+    clear: both;
+
     content: '';
 }
 .clearfix::before
-{   
-   display:table;
-  clear:both;
+{
+    display: table;
+    clear: both;
+
     content: '';
 }
 body
 {
-  
-    font-family: 'Pt-sans Regular', 'Arial', sans-serif;
+    font-family: 'Pt-sans Regular','Arial', sans-serif;
     font-size: 17px;
+
+    margin: 0;
 
     color: #000;
 }
@@ -281,8 +283,10 @@ body
     height: 318px;
     margin-right: 3px;
     margin-bottom: 21px;
-    margin-left: 20px;
+    margin-left: 15px;
     padding-bottom: 21px;
+
+    border: 1px solid black;
 }
 .popular
 {
@@ -590,8 +594,8 @@ a
 {
     width: 460px;
     height: 114px;
-    padding-right: 80px;
-    padding-left: 80px;
+    padding-right: 150px;
+    padding-left: 10px;
 }
 .text-form
 {
@@ -652,14 +656,14 @@ a
 .new_feature
 {
     position: absolute;
-    top: 377px;
+    top: 369px;
     left: 562px;
 }
 .new_item
 {
     position: absolute;
-    top: 917px;
-    left: 1058px;
+    top: 915px;
+    left: 1035px;
 }
 .icon_1
 {
@@ -691,11 +695,3 @@ a
     top: 690px;
     left: 1180px;
 }
-
-
-
-
-
-
-
-
